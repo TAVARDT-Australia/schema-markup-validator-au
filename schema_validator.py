@@ -45,7 +45,7 @@ def validate_schema(target_url, timeout=8):
             body = resp.read().decode("utf-8", errors="ignore")
 
         # 1. JSON-LD extraction
-        matches = re.findall(r'<script[^>]+type=["']application/ld\+json["'][^>]*>(.*?)</script>', body, re.DOTALL | re.IGNORECASE)
+        matches = re.findall(r'<script[^>]+type=[\"\']application/ld\+json[\"\'][^>]*>(.*?)</script>', body, re.DOTALL | re.IGNORECASE)
         results["json_ld_blocks"] = len(matches)
 
         if not matches:
@@ -111,8 +111,8 @@ def _validate_properties(entity_type, entity_dict, results):
 def main():
     parser = argparse.ArgumentParser(description="TAVARDT Australia - Structured Data Validator")
     parser.add_argument("target", help="Target domain or URL to validate")
-    parser.add_argument("--json", action="store_true", help="Output results in JSON format")
-    parser.add_argument("--timeout", type=int, default=8, help="Request timeout in seconds")
+    parser.add_argument("-j", "--json", action="store_true", help="Output results in JSON format")
+    parser.add_argument("-t", "--timeout", type=int, default=8, help="Request timeout in seconds")
 
     args = parser.parse_args()
     report = validate_schema(args.target, timeout=args.timeout)
