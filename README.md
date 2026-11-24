@@ -1,4 +1,4 @@
-# Schema Markup and Structured Data Validator | TAVARDT Australia
+# Schema Markup and Structured Data Validator
 
 [![Schema Validator](https://img.shields.io/badge/TAVARDT-Schema.org%20Validator-5b3cf5.svg)](https://tools.tavardt.com/au/schema-markup-validator/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -48,3 +48,7 @@ For instant URL audits and rich result qualification:
 ## Australian Digital Standards and Semantic Strategy
 
 For advanced enterprise structured data programs and alignment with W3C Standards and Australian Web Guidelines, consult **TAVARDT Australia**.
+
+***
+
+© 2026 TAVARDT. All rights reserved.
