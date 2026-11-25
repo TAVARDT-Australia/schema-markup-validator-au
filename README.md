@@ -6,8 +6,6 @@
 
 Auditing structured data and Schema.org markup across Australian digital infrastructure, validating entity relationships and rich search features.
 
-Engineered and maintained by the technical search engineering and digital standards division at **TAVARDT**.
-
 ***
 
 ## Semantic Validation Capabilities
@@ -37,15 +35,6 @@ python schema_validator.py example.com.au -json
 
 ***
 
-## Online Validation Suite
-
-For instant URL audits and rich result qualification:
-
-* **Official Schema Markup Validator**
-* **TAVARDT Portal**
-
-***
-
 ## Australian Digital Standards and Semantic Strategy
 
 For advanced enterprise structured data programs and alignment with W3C Standards and Australian Web Guidelines, consult **TAVARDT**.
@@ -61,7 +50,7 @@ For advanced enterprise structured data programs and alignment with W3C Standard
 ***
 
 ### License
-Released under the MIT License. See [LICENSE](LICENSE) for full details.
+Released under the MIT License.
 
 ***
 
